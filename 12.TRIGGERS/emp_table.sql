@@ -10,6 +10,6 @@ INSERT INTO emp_table VALUES(
     '&emp_code',
     '&emp_fname',
     '&emp_lname',
-    '&emp_salary',
+    &emp_salary,
     '&emp_address'
 );

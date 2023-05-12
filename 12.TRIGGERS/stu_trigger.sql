@@ -2,7 +2,7 @@ CREATE OR REPLACE TRIGGER audit_stu_code
 BEFORE INSERT OR UPDATE OF stu_code ON students
 -- REFERENCING OLD AS o NEW AS n 
 FOR EACH ROW
-WHEN (NEW.stu_code > 0) 
+--WHEN (NEW.stu_code > 0) 
 DECLARE
 new_st_code stu_code.students%type;
 old_st_code stu_code.students%type;

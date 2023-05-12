@@ -1,4 +1,4 @@
-CREATE OR REPLACE TRIGGER display_salary_changes
+CREATE OR REPLACE TRIGGERset  display_salary_changes
 BEFORE DELETE OR INSERT OR UPDATE ON customers
 FOR EACH ROW
 WHEN (NEW.ID > 0)
